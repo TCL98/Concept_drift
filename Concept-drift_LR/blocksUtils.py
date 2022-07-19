@@ -1,7 +1,6 @@
 import math
 from Utils import normalize
 import numpy as np
-import pandas as pd
 import random
 
 def splitBlocksByIndxs(df, indxs):
@@ -91,7 +90,7 @@ def generateIndexes(lenDf2, indxsLenght):
 
         # Update accumulatedDivision
         accumulatedDivision = accumulatedDivision - newIndex + maxDivision
-        
+
     # Finally, we add the last entry of the data.
     indexes.append(8639)
     return indexes

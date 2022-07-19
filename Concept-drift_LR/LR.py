@@ -1,5 +1,4 @@
 import time
-import sklearn
 from sklearn.linear_model import LinearRegression
 from Utils import initializeResults, getResults, escribeDatos, denormalize
 from blocksUtils import splitBlocksByIndxs, generateIndexes
